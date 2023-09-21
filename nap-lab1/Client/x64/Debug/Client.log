@@ -1,0 +1,3 @@
+﻿  client.cpp
+F:\лабы\сем 7\псп\лаб1\pnp-lab1\Client\client.cpp(35,32): warning C4309: инициализация: усечение константного значения
+  Client.vcxproj -> F:\лабы\сем 7\псп\лаб1\pnp-lab1\x64\Debug\Client.exe
