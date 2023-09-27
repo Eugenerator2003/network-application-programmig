@@ -1,5 +1,3 @@
-// Client part for Server-Client chat. Developed by Mr_Dezz
-
 #include <iostream>
 #include <WinSock2.h>
 #include <WS2tcpip.h>
