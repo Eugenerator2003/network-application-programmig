@@ -1,4 +1,4 @@
 # network-application-programmig
 Network application programming labarotory works
 
-Transmatting data via socket in c++ with WinAPI
+Transmitting data via socket in C++ with WinAPI
