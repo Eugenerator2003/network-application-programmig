@@ -1,7 +1,14 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import com.sun.net.httpserver.HttpContext;
+import com.sun.net.httpserver.HttpServer;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+
 public class Main {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws IOException {
+        Server server = new Server("localhost", 8080);
+        server.run();
     }
 }
